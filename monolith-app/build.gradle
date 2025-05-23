@@ -1,0 +1,14 @@
+plugins {
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management'
+    id 'java'
+}
+
+dependencies {
+    implementation project(":app-auth-service")
+    implementation project(":app-payment-service")
+    implementation project(":app-product-service")
+    implementation project(":app-store-service")
+    implementation project(":app-user-service")
+    implementation project(":common-module")
+}
